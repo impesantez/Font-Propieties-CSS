@@ -1,0 +1,78 @@
+ 
+h2{
+    font-size: 25px;
+    text-align: center;
+    color: crimson;
+  }
+
+/* Usando unidades absolutas */
+
+
+/* Tamaño de fuente en píxeles */
+.texto-px {
+    font-size: 20px;
+  }
+  
+  /* Tamaño de fuente en puntos */
+  .texto-pt {
+    font-size: 15pt;
+  }
+  
+  /* Tamaño de fuente en centímetros */
+  .texto-cm {
+    font-size: 1cm;
+  }
+  
+  /* Tamaño de fuente en milímetros */
+  .texto-mm {
+    font-size: 10mm;
+  }
+  
+  /* Tamaño de fuente en pulgadas */
+  .texto-in {
+    font-size: 0.5in;
+  }
+  
+  /* Tamaño de fuente en picas */
+  .texto-pc {
+    font-size: 20px;
+  }
+  
+/* Usando unidades relativas */
+
+ /* Definimos un tamaño base en el elemento raíz */
+ html {
+  font-size:  20px; 
+}
+
+/* Tamaño de fuente en em (relativo al elemento padre) */
+
+.texto-em {
+  font-size: 1.5em; /* # veces el tamaño de la fuente padre */
+  color: #3366cc;
+}
+
+/* Tamaño de fuente en rem  */
+.texto-rem {
+  font-size: 1rem; /* # veces el tamaño de la fuente en el elemento padre */
+  color: #33cc33;
+}
+
+/* Tamaño de fuente en porcentaje  */
+.texto-percent { 
+  font-size: 10px; /*Elemento padre */
+  font-size: 200%; /* % del tamaño de la fuente del elemento padre */
+  color: #cc6633;
+}
+
+/* Tamaño de fuente en vw (relativo al ancho de la ventana) */
+.texto-vw {
+  font-size: 5vw; /* 5% del ancho de la ventana */
+  color: #cc3366;
+}
+
+/* Tamaño de fuente en vh (relativo al alto de la ventana) */
+.texto-vh {
+  font-size: 5vh; /* 5% del alto de la ventana */
+  color: #6633cc;
+}
