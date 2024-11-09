@@ -48,7 +48,7 @@ h2{
 /* Tamaño de fuente en em (relativo al elemento padre) */
 
 .texto-em {
-  font-size: 1.5em; /* # veces el tamaño de la fuente padre */
+  font-size: 2em; /* # veces el tamaño de la fuente padre */
   color: #3366cc;
 }
 
@@ -75,4 +75,28 @@ h2{
 .texto-vh {
   font-size: 5vh; /* 5% del alto de la ventana */
   color: #6633cc;
+}
+
+/* Párrafo con line-height normal (1.2) */
+.line-height-normal {
+  font-size: 16px;
+  line-height: 1.2;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+/* Párrafo con line-height relajado (1.8) */
+.line-height-doble {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #3366cc;
+  margin-bottom: 15px;
+}
+
+/* Párrafo con line-height ajustado (1) */
+.line-height-pequeño {
+  font-size: 16px;
+  line-height: 1;
+  color: #cc6633;
+  margin-bottom: 15px;
 }

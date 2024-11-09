@@ -1,0 +1,47 @@
+/* Tamaño base en el elemento raíz */
+html {
+    font-size: 16px; /* 16 píxeles base */
+}
+
+/* Título con unidades absolutas */
+
+/*Tamaño de fuente :24 px
+Font-family: Arial 
+font-size: 24px; /* Tamaño fijo en píxeles
+font-family: Arial, Helvetica, sans-serif
+font-weight: bold
+text-align: center
+color: black*/
+.titulo {
+ 
+}
+
+/* Texto con tamaño en píxeles
+font-size: 40px
+color: blue */
+.texto-px {
+    
+}
+
+/* Texto con tamaño en em (relativo al tamaño del elemento padre) 
+    font-size: 2em
+    color: green
+*/
+.texto-em {
+    
+}
+
+/* Texto con tamaño en rem (relativo al tamaño de la fuente raíz) 
+    font-size: 2rem
+    color: orange*/
+.texto-rem {
+    
+}
+
+/* Texto con tamaño en porcentaje 
+    font-size: 120% 
+    color: purple
+    */
+.texto-percent {
+    
+}
