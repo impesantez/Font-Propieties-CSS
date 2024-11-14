@@ -6,42 +6,35 @@ html {
 /* Título con unidades absolutas */
 
 /*Tamaño de fuente :24 px
-Font-family: Arial 
-font-size: 24px; /* Tamaño fijo en píxeles
-font-family: Arial, Helvetica, sans-serif
-font-weight: bold
-text-align: center
-color: black*/
-.titulo {
- 
-}
-
-/* Texto con tamaño en píxeles
-font-size: 40px
-color: blue */
-.texto-px {
-    
-}
-
-/* Texto con tamaño en em (relativo al tamaño del elemento padre) 
-    font-size: 2em
-    color: green
 */
+.titulo {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
+
+/* Texto con tamaño en píxeles */
+.texto-px {
+    font-size: 40px;
+    color: blue   
+}
+
+/* Texto con tamaño en em (relativo al tamaño del elemento padre) */
 .texto-em {
-    
+    font-size: 2em;
+    color: green;
 }
 
-/* Texto con tamaño en rem (relativo al tamaño de la fuente raíz) 
-    font-size: 2rem
-    color: orange*/
+/* Texto con tamaño en rem (relativo al tamaño de la fuente raíz) */
 .texto-rem {
-    
+    font-size: 2em;
+    color: orange;
 }
 
-/* Texto con tamaño en porcentaje 
-    font-size: 120% 
-    color: purple
-    */
+/* Texto con tamaño en porcentaje */
 .texto-percent {
-    
+   font-size: 120%;
+   color: purple; 
 }
